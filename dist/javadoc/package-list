@@ -1,0 +1,13 @@
+drivers
+gui.mainframe
+gui.mainframe.componentCreator
+gui.mainframe.componentCreator.bottompanel
+gui.mainframe.componentCreator.drawpanel
+gui.mainframe.componentCreator.menubar
+gui.mainframe.componentCreator.options
+gui.mainframe.databaseCreatorComponents
+mechanics
+mechanics.database
+mechanics.recognition
+mechanics.recognition.managers
+universals

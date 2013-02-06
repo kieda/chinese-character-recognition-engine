@@ -1,0 +1,17 @@
+VERSION BETA 2.6
+still commenting...
+Updating existing algorithms to be more efficient
+i.e. intersections are only counted for each individual stroke that intersects the line
+Currently, simple/complex don't matter
+and...
+Intersections are only counted by the number of differents strokes that pass through them (removing accidental extra intersections)
+changed the "delta" for the amount the mouse has to move to add a point to 1 (the line above me explains why this will be no problem!)
+made the components resize better than before
+added more characters to the database
+the cursor is a crosshair when above the drawpanel
+INTERESTING NOTE:THE SPEED OF THE PROGRAM ROSE TENFOLD OR SOMETHING WHEN THE USB WAS UNPLUGGED, HAVE TO INVESTIGATE FURTHER
+SECOND INTERESTING NOTE: SPEED WAS INCREASED AFTER THE LOGS WERE EMPTIED, WILL FIND MORE EFFICIENT WAY TO WRITE TO FILES
+
+Speed problem fixed by remodeling the LogManager and fixing the index
+
+Database now has definitions in it, and found characters show definitions

@@ -1,0 +1,11 @@
+I would like to thank the Oracle Corporation/ the Netbeans IDE
+for not onl their excellent IDE, but also for generated swing code 
+in the preliminary steps (beginning alpha) of this project. Their 
+use of GroupLayout further inspired me to use GroupLayout manually
+in other swing operations.
+
+I would also like to thank Oracle for the excellent JDK platform,
+this program would not run if it were'nt for JAVA
+
+Netbeans website: http://netbeans.org/
+Oracle website: http://www.oracle.com/index.html

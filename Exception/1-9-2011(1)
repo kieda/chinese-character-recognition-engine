@@ -1,0 +1,18 @@
+run:
+Exception in thread "AWT-EventQueue-0" java.lang.ExceptionInInitializerError
+        at drivers.FinderFrame.FinderFrame.initFrame(FinderFrame.java:83)
+        at drivers.FinderFrame.FinderFrame.<init>(FinderFrame.java:76)
+        at drivers.Main$1.run(Main.java:27)
+        at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:597)
+        at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+        at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.lang.NullPointerException
+        at drivers.FinderFrame.componentCreator.menubar.MenuBar.<init>(MenuBar.java:30)
+        at drivers.FinderFrame.componentCreator.FinderFrameComponents.<clinit>(FinderFrameComponents.java:43)
+        ... 11 more
+BUILD SUCCESSFUL (total time: 1 second)
